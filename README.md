@@ -34,6 +34,7 @@ This app provides an API with information about all your favorite cat breeds!
 
 1. Setup nested routes
 1. Pagination
+1. Timestamp util for models
 
 ## API
 
