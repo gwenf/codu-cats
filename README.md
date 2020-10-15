@@ -11,7 +11,19 @@ This app provides an API with information about all your favorite cat breeds!
 1. Create a virtual environment: `python -m venv venv`
 1. Go into your virtual environment: `source venv/bin/activate`
 1. Rename the CoduCats folder to config
-1. Setup Postgres in Django
+1. Setup Postgres in Django:
+
+```
+'default': {
+    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    'NAME': 'coducat',
+    'USER': 'cc_admin',
+    'PASSWORD': '',
+    'HOST': 'localhost',
+    'PORT': '',
+}
+```
+
 1. Setup Database in Postgres
     1. Create the database: `CREATE DATABASE coducat;`
     1. Create DB user: `CREATE USER cc_admin;
@@ -25,7 +37,7 @@ This app provides an API with information about all your favorite cat breeds!
 
 1. Create apps for Pages and for Breeds
 1. Setup URLs
-1. Setup templates for home page
+1. Setup templates for home page: `'DIRS': [os.path.join(BASE_DIR, 'apps/templates')]`
 1. Create Models
 1. Setup Admin interface
 1. Setup Views
