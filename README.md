@@ -25,6 +25,7 @@ This app provides an API with information about all your favorite cat breeds!
 
 1. Create apps for Pages and for Breeds
 1. Setup URLs
+1. Setup templates for home page
 1. Create Models
 1. Setup Admin interface
 1. Setup Views
@@ -32,6 +33,7 @@ This app provides an API with information about all your favorite cat breeds!
 ### Part 3
 
 1. Setup nested routes
+1. Pagination
 
 ## API
 
