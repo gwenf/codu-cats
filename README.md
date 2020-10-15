@@ -24,6 +24,12 @@ This app provides an API with information about all your favorite cat breeds!
 }
 ```
 
+1. Setup custom User model and custom user manager: https://docs.djangoproject.com/en/3.1/topics/auth/customizing/#a-full-example
+
+```py
+AUTH_USER_MODEL = 'users.User'
+```
+
 1. Setup Database in Postgres
     1. Create the database: `CREATE DATABASE coducat;`
     1. Create DB user: `CREATE USER cc_admin;
@@ -44,7 +50,7 @@ This app provides an API with information about all your favorite cat breeds!
 
 ### Part 3
 
-1. Setup nested routes
+1. Setup nested routes: `rest_framework_nested`
 1. Pagination
 1. Timestamp util for models
 
